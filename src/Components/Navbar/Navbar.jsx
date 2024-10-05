@@ -8,12 +8,14 @@ import { ShopContext } from "../../Context/ShopContext";
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
 
-  const {getTotalCartItems} = useContext(ShopContext);
+  const { getTotalCartItems } = useContext(ShopContext);
 
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src={logo} alt="" />
+        <Link to="./">
+          <img src={logo} alt="" />
+        </Link>
         <p>Shopper</p>
       </div>
       <ul className="nav-menu">

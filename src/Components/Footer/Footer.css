@@ -73,5 +73,14 @@
 
   .footer-copyright{
     font-size: 14px;
+    width: 90%;
   }
+  .footer-copyright p{
+    text-align: center;
+  }
+  .footer-copyright p a{
+    font-size: 16px;
+    
+  }
+
 }
