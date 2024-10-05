@@ -18,17 +18,7 @@
   font-weight: 700;
 }
 
-.footer-links {
-  display: flex;
-  list-style: none;
-  gap: 50px;
-  color: #252525;
-  font-size: 20px;
-}
 
-.footer-links li {
-  cursor: pointer;
-}
 
 .footer-social-icons {
   display: flex;
@@ -68,4 +58,20 @@
   border-radius: 10px;
   height: 3px;
   background: #c7c7c7;
+}
+
+@media (max-width: 600px){
+
+  .footer{
+    gap: 20px;
+    width: auto;
+    margin-top: 40px;
+  }
+  .footer-logo p {
+    font-size: 32px;
+  }
+
+  .footer-copyright{
+    font-size: 14px;
+  }
 }

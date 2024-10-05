@@ -1,5 +1,5 @@
 .offers {
-  height: 60vh;
+  height: auto;
   display: flex;
   margin: auto;
   padding: 0px 140px;
@@ -47,4 +47,26 @@
     align-items: center;
     justify-content: flex-end;
     padding-top: 50px;
+}
+
+@media (max-width: 600px){
+    .offers{
+        /* width: 100%; */
+        padding: 40px 20px;
+        flex-direction: column;
+        margin: 40px 0;
+        margin-bottom: 0;
+    }
+
+    .offers-left p{
+        font-size: 24px;
+    }
+
+    .offers-left h1{
+        font-size: 18px;
+    }
+
+    .offers-right{
+        display: none;
+    }
 }

@@ -27,3 +27,33 @@
     margin-top: 50px;
     gap: 30px;
 }
+
+@media (max-width:600px){
+    .new-collections {
+        margin-left: 20px;
+        align-items: flex-start;
+      }
+    
+      .new-collections h1 {
+        color: #171717;
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      .new-collections  hr {
+        width: 240px;
+        height: 4px;
+      }
+    
+      .collections {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+      .new-collections img {
+        height: 300px;
+        width: 80%;
+        margin: 0 auto;
+      }
+}

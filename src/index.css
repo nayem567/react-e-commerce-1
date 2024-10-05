@@ -1,17 +1,26 @@
 :root {
   line-height: 1.5;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 button {
   font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 600px) {
+  button {
+    border-radius: 0px !important;
+  }
 }

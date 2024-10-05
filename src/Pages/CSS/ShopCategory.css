@@ -42,3 +42,33 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+@media (max-width: 600px) {
+  .shop-category {
+    width: 100%;
+  }
+  .shopcategory-banner {
+    width: 100%;
+  }
+  .shopcategory-indexSort {
+    width: 100%;
+  }
+  .shopcategory-indexSort p span {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .shopcatgory-products {
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shopcatgory-products img{
+    height: 350px;
+
+  }
+  .shopcategory-loadmore {
+    margin: 20px 0;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+}

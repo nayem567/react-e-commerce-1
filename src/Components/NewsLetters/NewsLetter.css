@@ -53,4 +53,35 @@
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+    border: none;
+}
+
+@media (max-width: 600px){
+    .newsletter{
+        height: auto;
+        padding: 40px 10px 20px 10px;
+        margin-bottom: 30px;
+        align-items: normal;
+    }
+    .newsletter h1{
+        font-size: 24px;
+    }
+    .newsletter p{
+        font-size: 16px;
+    }
+
+    .newsletter div{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .newsletter input{
+        width: 80%;
+        margin-left: 30px;
+        border: none;
+        outline: none;
+        color: #616161;
+        font-family: Poppins;
+        font-size: 16px;
+    }
 }

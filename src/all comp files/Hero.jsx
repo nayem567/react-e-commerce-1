@@ -9,18 +9,19 @@ const Hero = () => {
   return (
     <section className='hero'>
         <div className="hero-left">
-            <h2>Welcome to Shopper</h2>
+            <h2>New Arrivals Only</h2>
             <div>
                 <div className="hero-hand-icon">
-                    <p>New Collections</p>
+                    <p>new</p>
                     <img src={hand_icon} alt="" />
                 </div>
-                <p>For Everyone</p>
+                <p>collections</p>
+                <p>for everyone</p>
             </div>
             <div className="hero-latest-button">
                 <div>
                     Latest Collection
-                    <img className='arrow_icon' src={arrow_icon} alt="" />
+                    <img src={arrow_icon} alt="" />
                 </div>
             </div>
         </div>
